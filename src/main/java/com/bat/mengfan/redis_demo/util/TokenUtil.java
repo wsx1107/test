@@ -8,7 +8,7 @@ public class TokenUtil {
     public static String getToken(String userInfo){
         StringBuilder stringBuilder=new StringBuilder();
         stringBuilder.append("token-");
-        System.out.println(666);
+        System.out.println(667);
         stringBuilder.append("PC-");
         stringBuilder.append(MD5.MD5_SHA(userInfo,"MD5"));
         stringBuilder.append(new SimpleDateFormat("yyyyMMddHHmmss").format(new Date()));
